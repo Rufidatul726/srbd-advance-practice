@@ -1,0 +1,5 @@
+# remove .o and .exe files
+*.o
+*.exe
+
+.vscode
