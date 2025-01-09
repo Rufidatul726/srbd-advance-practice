@@ -3,3 +3,9 @@
 *.exe
 
 .vscode
+.vs
+
+#allow only .c file, remove everything else
+!*.c
+
+*
