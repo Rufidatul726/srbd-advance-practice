@@ -1,8 +1,17 @@
-# Ignore everything
-*
+# remove .o and .exe files
+*.o
+*.exe
 
-# Except C files
-!*.c
+.vscode
 
-# Optional: Ignore Git-related files
-!.gitignore
+.vs/
+
+Debug/
+x64/
+
+*.cpp
+*.vcxproj
+*.filters
+*.user
+
+*.sln
