@@ -53,7 +53,7 @@ void dfs(int node, int n, int current_cycle[MAX_N], int current_cycle_length) {
 	return;
 }
 
-int main(void) {
+int solve(void) {
 	int n, m;
 	int i, j, k=0;
 	int u, v;
