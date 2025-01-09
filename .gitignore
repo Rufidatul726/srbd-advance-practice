@@ -1,11 +1,8 @@
-# remove .o and .exe files
-*.o
-*.exe
+# Ignore everything
+*
 
-.vscode
-.vs
-
-#allow only .c file, remove everything else
+# Except C files
 !*.c
 
-*
+# Optional: Ignore Git-related files
+!.gitignore
