@@ -17,14 +17,14 @@ int balloonburst(int start, int end) {
 		if (start == 1 && end == length) {
 			temp = balloon[i];
 		}
-		temp += dfs(start, i - 1) + dfs(i + 1, end);
+		temp += balloonburst(start, i - 1) + balloonburst(i + 1, end);
 		if (score[start][end] < temp)score[start][end] = temp;
 	}
 
 	return score[start][end];
 }
 
-int main(void) {
+int balloonsolution(void) {
 	scanf("%d", &length);
 
 	balloon[0] = 1;
